@@ -1,0 +1,50 @@
+.lamp{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(12, 1fr);
+    width: max-content;
+  }
+  .traffic {
+    background: #000;
+    padding: 40px 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 40px;
+    border-radius: 10px;
+  }
+  .buled {
+    border-radius: 50%;
+  }
+  .green {
+    height: 80px;
+    width: 80px;
+    background: #12f1128a;
+  }
+  .green.on {
+    background: #12f112;
+  }
+  .button {
+    height: 30px;
+    width: 30px;
+    background: #3d3d3d;
+    border: none;
+    cursor: pointer;
+  }
+  .yellow {
+    height: 80px;
+    width: 80px;
+    background: #ffd00088;
+  }
+  .yellow.on {
+    background: #ffd000;
+  }
+  .red {
+    height: 80px;
+    width: 80px;
+    background: #ff000093;
+  }
+  .red.on {
+    background: #ff0000;
+  }
